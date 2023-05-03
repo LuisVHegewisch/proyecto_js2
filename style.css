@@ -1,0 +1,139 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    background-image: url("../imgs/Sky.jpg");
+    background-repeat: no-repeat ;
+    background-size: 100%;
+    
+    /* background: rgb(201, 255, 246);
+    background: linear-gradient(90deg, rgba(201, 255, 246, 1) 0%, rgba(140, 224, 255, 1) 29%, rgba(0, 212, 255, 1) 100%); */
+
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+img {
+    width: 20%;
+    height: 90%;
+}
+
+.label {
+    font-weight: 700;
+    width: max-content;
+    display: grid;
+    justify-content: center;
+    
+    
+}
+
+.input {
+    display: grid;
+    justify-content: start;
+    width: 15%;
+    
+    
+}
+
+.consulta {
+    letter-spacing: 1px;
+    margin-top: 10px;
+    background-color: #2196F3;
+    padding: 6px;
+    color: white;
+    width: 55%;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+.consulta:hover {
+    opacity: 0.8;
+    /* Opacidad ligeramente reducida al pasar sobre el botón */
+}
+
+.consulta:active {
+    background-color: #0d47a1;
+    transform: scale(0.95);
+    /* Brillo al hacer clic */
+}
+
+.container {
+    border-radius: 10%;
+    background-color: rgba(255, 253, 253, 0.39);    width: 50%;
+    margin-left: 25%;
+    display: grid;
+
+    justify-content: center;
+    /* border-style: solid;
+    border-color: blueviolet; */
+}
+
+.clean {
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: #e61304d0; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer;
+    margin-top: -5rem; 
+    transition: all 0.3s ease; 
+  }
+  
+  .clean:hover {
+    background-color: #7e1817; /* Color de fondo rojo oscuro al pasar sobre el botón */
+  }
+
+  .clean:active {
+    background-color: #750d0d;
+    transform: scale(0.95);
+    /* Brillo al hacer clic */
+}
+
+table {
+    border-collapse: separate;
+    width: 100%;
+    max-width: 800px; /* Limitamos la anchura máxima de la tabla */
+    margin: 20px auto; /* Centramos la tabla */
+    font-family: Arial, sans-serif; /* Fuente */
+    background-color: #f8f8f8; /* Fondo gris claro */
+    border-radius: 10px; /* Redondeado de bordes */
+    overflow: hidden; /* Ocultamos cualquier desbordamiento */
+  }
+  
+  th {
+    background-color: #4c87af; /* Fondo verde */
+    color: white; /* Color del texto */
+    font-size: 20px; /* Tamaño de la fuente */
+    text-align: left; /* Alineación del texto */
+    padding: 15px; /* Espacio interior */
+  }
+  
+  td {
+    font-size: 16px; /* Tamaño de la fuente */
+    text-align: left; /* Alineación del texto */
+    padding: 10px 15px; /* Espacio interior */
+    border-bottom: 1px solid #ddd; /* Borde inferior */
+  }
+
+/* table {
+    border-collapse: collapse;
+    box-shadow: 10px 5px 5px rgb(107, 107, 107);
+}
+
+
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+} */
