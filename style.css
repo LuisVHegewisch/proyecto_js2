@@ -4,9 +4,6 @@ body {
     background-image: url("../imgs/Sky.jpg");
     background-repeat: no-repeat ;
     background-size: 100%;
-    
-    /* background: rgb(201, 255, 246);
-    background: linear-gradient(90deg, rgba(201, 255, 246, 1) 0%, rgba(140, 224, 255, 1) 29%, rgba(0, 212, 255, 1) 100%); */
 
 }
 
@@ -70,8 +67,6 @@ img {
     display: grid;
 
     justify-content: center;
-    /* border-style: solid;
-    border-color: blueviolet; */
 }
 
 .clean {
@@ -101,39 +96,26 @@ img {
 table {
     border-collapse: separate;
     width: 100%;
-    max-width: 800px; /* Limitamos la anchura máxima de la tabla */
-    margin: 20px auto; /* Centramos la tabla */
-    font-family: Arial, sans-serif; /* Fuente */
-    background-color: #f8f8f8; /* Fondo gris claro */
-    border-radius: 10px; /* Redondeado de bordes */
-    overflow: hidden; /* Ocultamos cualquier desbordamiento */
+    max-width: 800px; 
+    margin: 20px auto;
+    font-family: Arial, sans-serif; 
+    background-color: #f8f8f8; 
+    border-radius: 10px; 
+    overflow: hidden; 
   }
   
   th {
-    background-color: #4c87af; /* Fondo verde */
-    color: white; /* Color del texto */
-    font-size: 20px; /* Tamaño de la fuente */
-    text-align: left; /* Alineación del texto */
-    padding: 15px; /* Espacio interior */
+    background-color: #4c87af; 
+    color: white; 
+    font-size: 20px; 
+    text-align: left; 
+    padding: 15px; 
   }
   
   td {
-    font-size: 16px; /* Tamaño de la fuente */
-    text-align: left; /* Alineación del texto */
-    padding: 10px 15px; /* Espacio interior */
-    border-bottom: 1px solid #ddd; /* Borde inferior */
+    font-size: 16px; 
+    text-align: left; 
+    padding: 10px 15px; 
+    border-bottom: 1px solid #ddd; 
   }
 
-/* table {
-    border-collapse: collapse;
-    box-shadow: 10px 5px 5px rgb(107, 107, 107);
-}
-
-
-
-th,
-td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: left;
-} */
